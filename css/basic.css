@@ -1,0 +1,78 @@
+/* ~`~`~`~`~`~`~`~`| FONTS |~`~`~`~`~`~`~`~` */
+@font-face {
+    font-family: outfit;
+    src: url(/fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(/fonts/WorkSans-Regular.ttf);
+}
+
+/* ~`~`~`~`~`~`~`~`| COLOR |~`~`~`~`~`~`~`~` */
+:root {
+    --main_color: #34394C;
+    --main_bg_color: #DEECEC;
+    --button_color: #589195;
+    --section_bg_color: #F6F8FA;
+
+    --public_c_h1: #3A415C;
+    --public_c_h2: #34394C;
+    --public_c_p: #707686;
+
+}
+
+
+/* ~`~`~`~`~`~`~`~`| BASIC |~`~`~`~`~`~`~`~` */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: worksans;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 111rem;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.public_p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707686;
+}
+
+.btn {
+    background: #589195;
+    width: 17rem;
+    border-radius: 3.8rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+}

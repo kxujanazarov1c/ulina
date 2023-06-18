@@ -1,0 +1,26 @@
+.section_1 {
+    padding: 8rem 0;
+    display: flex;
+    gap: 10rem;
+}
+
+.s_1_card {
+    display: flex;
+    flex-direction: column;
+
+}
+.s_1_card>div{
+    height: 5rem;
+}
+
+.s_1_card>span {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 6rem;
+}
+
+.s_1_card>p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
